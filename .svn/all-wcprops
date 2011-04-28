@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 21
+/svn/!svn/ver/1/trunk
+END
+AnalyzeGain.C
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/13/trunk/AnalyzeGain.C
+END
+DataParse.C
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/10/trunk/DataParse.C
+END
+AnalyzeAttenuator.C
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/13/trunk/AnalyzeAttenuator.C
+END
+Data.root
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/13/trunk/Data.root
+END
+Waveforms.root
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/10/trunk/Waveforms.root
+END
+TBDataParser.C
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/9/trunk/TBDataParser.C
+END
+functions.h
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/10/trunk/functions.h
+END
+TBDataParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/9/trunk/TBDataParser.h
+END
+Work Log.txt
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/10/trunk/Work%20Log.txt
+END
+Data.xml
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/13/trunk/Data.xml
+END
+Sum Trigger Board.tmproj
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/13/trunk/Sum%20Trigger%20Board.tmproj
+END
+WaveformsFileMaker.C
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/12/trunk/WaveformsFileMaker.C
+END
+AnalyzeClipping.C
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/13/trunk/AnalyzeClipping.C
+END
+TBGraphErrors.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/10/trunk/TBGraphErrors.h
+END
+SumTriggerBoardData.root
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/7/trunk/SumTriggerBoardData.root
+END

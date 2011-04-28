@@ -1,0 +1,55 @@
+Title: sum trigger work log
+
+Goal: characterize the sum trigger board
+
+All the data are stored in the Data.xml file contained in this folder.
+
+Day 07.01.2010
+
+Working Channels: 5,6,7,0,1
+
+Noise of the probe: 7.42 mV
+Noise of the scope: 300 μV
+
+Task: Measure the overall gain
+
+To perform this task i'm creating 3 sets of measures:
+
+1) For one channel (channel 5) measure the gain of the amplifier for several amplitudes and one width
+2) For one channel (channel 5) measure the gain of the amplifier for one amplitude and two different widths
+3) For every channel measure the gain of the amplifier for one amplitude and one width
+
+Measure 1) data are contained in /Overall gain/Channel 5/One width
+Measure 2) data are contained in /Overall gain/Channel 5/One amplitude
+Measure 3) data are contained in /Overall gain/All channels
+
+
+Different nominal amplitude used: 100,200,300,400,500 mV
+
+07.02.2010
+
+I've found out that the maximum nominal value i can input without causing the saturation of the test board amplifiers is 1100 mV that produces an inverted signal of 1892.7 mV +/- 11.6
+
+For the study on the attenuator i'm setting the attenuator value of every other channel then 5 at 2000 mV, low clipping at 0 mV and high clipping 2000 mV.
+The nominal amplitudes taken are from 100 to 1100 mV at steps of 100 mV.
+
+Number of measurements taken with the probe (the input) every time is ~500.
+Number of measurements taken with the scope (the output) evety time is ~150.
+
+07.08.2010
+
+Clipping measures:
+
+Channel 5
+
+Clipping values : from 100 to 2100 at steps of 200
+
+Nominal amplitudes: 500 and 1100 mV
+Actual amplitudes at the input of the board: 960.1 mV +/- 10.9/sqrt(200) , 1.9126 V +/- 14.1/sqrt(200)
+
+Setting the clipping at 100mV the waveform is barely a square wave so the measure of the width is not so accurate.
+
+Measured delay between input and output with 960 mV input and no clipping: 9.63 ns
+Measured delay between input and output with 1900 mV input and no clipping: 9.35 ns
+
+NOTE: Substitute Int_t graphPoints with Long64_t graphPoints in every file.
